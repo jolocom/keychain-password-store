@@ -1,5 +1,5 @@
 {
-  "name": "@jolocom/keychain-password-store",
+  "name": "@jolocom/sdk-password-store-mobile-keychain",
   "version": "0.1.0",
   "main": "js/index.js",
   "author": "Jolocom",
