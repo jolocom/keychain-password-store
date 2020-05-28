@@ -1,11 +1,12 @@
 {
-  "name": "keychain-password-store",
+  "name": "@jolocom/keychain-password-store",
   "version": "0.1.0",
   "main": "js/index.js",
   "author": "Jolocom",
   "license": "MIT",
   "scripts": {
-    "build": "yarn tsc -p .",
+    "build": "rm -rf js && yarn tsc -p .",
+    "clean": "rm -rf node_modules",
     "prepare": "yarn build"
   },
   "devDependencies": {
